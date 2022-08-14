@@ -1,0 +1,41 @@
+h2 {
+  font-size: 2rem;
+}
+
+.animal-card {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.animal-card3 {
+  position: relative;
+  width: 400px;
+  height: 400px;
+
+  text-align: center;
+}
+
+.animal-image {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.animal-image:hover {
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.image-hover {
+  z-index: -1;
+  width: 420px;
+  line-height: 20px;
+  display: inline-block;
+  padding: 160px 0px;
+  vertical-align: middle;
+  height: 450px;
+}

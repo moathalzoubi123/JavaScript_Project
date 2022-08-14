@@ -1,0 +1,26 @@
+.game-img {
+  margin: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border: 5px solid #885df1;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.game-img[wobble="1"] {
+  animation: wobble 1s 1;
+}
+
+@keyframes wobble {
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

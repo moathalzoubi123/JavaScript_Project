@@ -1,0 +1,24 @@
+.memory-game-container {
+	text-align: center;
+}
+
+.memory-game-cards {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+.image {
+	display: flex;
+	height: 300px;
+	width: 300px;
+    object-fit: cover;
+}
+
+.cardImage {
+    width: 25%;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: flex;
+    justify-content: center;
+}

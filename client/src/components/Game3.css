@@ -1,0 +1,46 @@
+.Game3 {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Picture {
+  margin: 5px;
+}
+
+.board-img {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  padding: 10px;
+}
+
+.Board {
+  padding: 30px;
+}
+
+.choice-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.animal-container,
+.colour-container {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+}
+/* 
+.animal {
+  text-align: center;
+} */
+
+/* .center {
+  text-align: center;
+} */
+
+/* .btata {
+
+    margin: 50%;
+} */

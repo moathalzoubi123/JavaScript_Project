@@ -1,0 +1,150 @@
+.id1 {
+  display: flex;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 50% 50%;
+}
+.box1 {
+  background-color: #3bf4fb;
+  padding: 2rem;
+  margin: 2rem;
+  display: grid;
+  justify-content: center;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 50px;
+  align-items: center;
+  border: 4px solid white;
+  box-shadow: rgba(16, 5, 174, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.box1:hover {
+  background: #3bf4fb;
+  opacity: 70%;
+}
+
+.box2 {
+  background-color: #f45b69;
+  padding: 2rem;
+  margin: 2rem;
+  display: grid;
+  justify-content: center;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 50px;
+  align-items: center;
+  border: 4px solid white;
+  box-shadow: rgba(16, 5, 174, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.box2:hover {
+  background: #f45b69;
+  opacity: 70%;
+}
+
+.box3 {
+  background-color: #ff784f;
+  padding: 2rem;
+  margin: 2rem;
+  display: grid;
+  justify-content: center;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 50px;
+  align-items: center;
+  border: 4px solid white;
+  box-shadow: rgba(16, 5, 174, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.box3:hover {
+  background: #ff784f;
+  opacity: 70%;
+}
+
+.quiz-box {
+  background-color: #a846a0;
+  padding: 2rem;
+  margin: 2rem;
+  display: grid;
+  justify-content: center;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 50px;
+  align-items: center;
+  border: 4px solid white;
+  box-shadow: rgba(16, 5, 174, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.quiz-box:hover {
+  background: #a846a0;
+  opacity: 70%;
+}
+
+.cat {
+  font-size: 150px;
+  color: white;
+  border-radius: 10px;
+  border: 4px solid white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: rgba(16, 5, 174, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.lesson3 {
+  font-size: 150px;
+  color: white;
+  border-radius: 10px;
+  border: 4px solid white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: rgba(16, 5, 174, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.lesson2 {
+  font-size: 150px;
+  color: white;
+  border-radius: 10px;
+  border: 4px solid white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: rgba(16, 5, 174, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.lesson1 {
+  font-size: 150px;
+  color: white;
+  border-radius: 10px;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: rgba(16, 5, 174, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.box1 > a {
+  text-decoration: none;
+  color: white;
+}
+.box2 > a {
+  text-decoration: none;
+  color: white;
+}
+.box3 > a {
+  text-decoration: none;
+  color: white;
+}
+.quiz-box > a {
+  text-decoration: none;
+  color: white;
+}
